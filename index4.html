@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Johan Booyens
+		Date:
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Midwest Minisplit Co.</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+    <div id="container">
+        <header class="banner-container">
+    <a href="index.html">
+        <img src="images/MidwestMinisplitCo_banner.png" alt="Midwest Minisplit Co Banner">
+    </a>
+</header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index2.html">Products and Services</a></li>
+                <li><a href="index3.html">About Us</a></li>
+                <li><a href="index4.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main id="main">
+            
+	<div class="section">
+    <h3>Contact Us</h3>
+    <div class="contact-container">
+        <div class="contact-info">
+            <p>
+                <strong>Address:</strong> 1616 South Belt Highway, Saint Joseph, Missouri 64507<br>
+                <strong>Email:</strong> <a href="mailto:mwminisplitco@gmail.com">mwminisplitco@gmail.com</a><br>
+                <strong>Phone:</strong> <a href="tel:+18167495565">+1 (816) 749-5565</a><br>
+                <strong>Facebook:</strong> <a href="https://facebook.com/MidwestMinisplitCo" target="_blank">Midwest MinisplitCo</a>
+            </p>
+        </div>
+
+        <div class="image-right-container">
+            <img src="images/James_MWMS.jpg" alt="Midwest Minisplit Co Building with James">
+        </div>
+</div>
+</div>
+
+            <div class="section">
+                <h3>Get in Touch</h3>
+                <form action="submit_contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>
+                Contact us: <a href="mailto:mwminisplitco@gmail.com">mwminisplitco@gmail.com</a> | 
+                <a href="tel:+18167495656">+1 (816) 749-5565</a>
+            </p>
+            <p>
+                Follow us: <a href="https://facebook.com/MidwestMinisplitCo" target="_blank">Facebook</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
